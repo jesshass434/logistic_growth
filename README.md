@@ -4,13 +4,21 @@
 
 In this practical I analysed the experiment.csv file, which contained data about population size (N) of *E. coli* at different times (t). 
 
-* Plotted N against T and then plotted logN against t (plot_data.R) to see exponential growth 
+* Plotted N against T and then plotted logN against t (plot_data.R) to linearise exponential growth 
 
-* Fitted a linear model Estimated model parameters (N0, r, k) using a linear approximation (fit_linear_model.R)
+* Fitted a linear model Estimated model parameters (N0, r, k) using a linear approximation (fit_linear_model.R).
+  In early growth phase (case 1), N0 still much smaller than K.
+  We filter the data for when t<1500 as this is when bacteria appear to be in early growth phase based on the first N against T plot.
+  Then create a linear model where the log-transformed response variable (N) is predicted by t (predictor variable).
+  We use log tranformation as linearises exponential growth part as we then use linear regression to estimate logN0 which is the intercept, and r, which is the slope
 
 * Assessed fit of the model to the data graphically (plot_data_and_model.R)
 
 ## Results 
+
+Summary of linear model gave us intercept (logN0) = 6.8941709 and the coefficient of t (slope of the line) = 0.0100086
+
+
 I found that the initial population size of E.coli was around 987 bacteria, with a growth rate of around 0.01 and a carrying capacity of around 60,000,000,000
 | Parameter  | Estimated Value |
 | ------------- | ------------- |
