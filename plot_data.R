@@ -1,26 +1,30 @@
 #Script to plot the logistic growth data
 
-growth_data <- read.csv("???")
+#Naming data/importing data
+growth_data <- read.csv("experiment.csv")
 
-install.packages("ggplot2")
+#Getting ggplot package for graphing
 library(ggplot2)
 
-ggplot(aes(t,N), data = ???) +
+#Plotting a graph, labelling axes
+ggplot(aes(t,N), data = growth_data) +
   
   geom_point() +
   
   xlab("t") +
   
-  ylab("y") +
+  ylab("N") +
   
   theme_bw()
 
-ggplot(aes(t,???), data = growth_data) +
+#Plotting a logged version 
+
+ggplot(aes(t,N), data = growth_data) +
   
   geom_point() +
   
   xlab("t") +
   
-  ylab("y") +
+  ylab("logN") +
   
   scale_y_continuous(trans='log10')
