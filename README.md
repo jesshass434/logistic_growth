@@ -3,11 +3,11 @@
 ## Background/Methods
 In this practical I analysed the experiment.csv file, which contained data about population size (N) of *E. coli* at different times (t). 
 
-* plot_data.R: Plotted N against T and then plotted logN against t
+* Plotted N against T and then plotted logN against t (plot_data.R) to see 
 
-* fit_linear_model.R: Estimated model parameters (N0, r, k) using a linear approximation 
+* Estimated model parameters (N0, r, k) using a linear approximation (fit_linear_model.R)
 
-* plot_data_and_model.R.: Assessed fit of the model to the data graphically 
+* Assessed fit of the model to the data graphically (plot_data_and_model.R)
 
 ## Results 
 I found that the initial population size of E.coli was around 987 bacteria, with a growth rate of around 0.01 and a carrying capacity of around 60,000,000,000
