@@ -1,11 +1,12 @@
 # Homework Answers 
 
 ## Background/Methods
+
 In this practical I analysed the experiment.csv file, which contained data about population size (N) of *E. coli* at different times (t). 
 
-* Plotted N against T and then plotted logN against t (plot_data.R) to see 
+* Plotted N against T and then plotted logN against t (plot_data.R) to see exponential growth 
 
-* Estimated model parameters (N0, r, k) using a linear approximation (fit_linear_model.R)
+* Fitted a linear model Estimated model parameters (N0, r, k) using a linear approximation (fit_linear_model.R)
 
 * Assessed fit of the model to the data graphically (plot_data_and_model.R)
 
