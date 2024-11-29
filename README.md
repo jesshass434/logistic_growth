@@ -26,7 +26,17 @@ The initial population size of *E.coli* was around 987 bacteria, with a growth r
 |r (intrinsic growth rate)|0.0100086|
 |K (carrying capacity)|6.00e+10|
 
-*Parameter Estimates Based on Experiment.csv Data*
+*Parameter Estimates Based on experiment.csv Data*
+
+t=4980 mins
+If logistic growth, the population size at 4980 mins would be 60,000,000,000 as carrying capacity is reached.
+If exponential growth continued, N = 986.50747(1+0.01000806)^4980 = 3.40252411e+24
+Population 5.7e+13 times bigger with exponential population growth!
+
+
+![logistic_growth](./Exponential_vs_Logistic_Growth_Plot.png)
+*Figure showing exponential (red line) vs logistic (black line) growth*
+
 
 1) (**10 points**) Annotate the **README.md** file in your `logistic_growth` repo with more detailed information about the analysis. Add a section on the results and include the estimates for $N_0$, $r$ and $K$ (mention which *.csv file you used).
    
