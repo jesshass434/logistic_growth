@@ -1,4 +1,4 @@
-  #Script to plot data and model
+#Script to plot data and model
 
 growth_data <- read.csv("experiment.csv")
 

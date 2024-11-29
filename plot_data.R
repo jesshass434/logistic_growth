@@ -13,7 +13,7 @@ ggplot(aes(t,N), data = growth_data) +
   
   xlab("t") +
   
-  ylab("y") +
+  ylab("N") +
   
   theme_bw()
 
@@ -25,6 +25,7 @@ ggplot(aes(t,N), data = growth_data) +
   
   xlab("t") +
   
-  ylab("y") +
+  ylab("logN") +
   
   scale_y_continuous(trans='log10')
+
