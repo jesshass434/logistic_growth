@@ -1,11 +1,13 @@
 #Script to plot the logistic growth data
 
-growth_data <- read.csv("???")
+#Naming data/importing data
+growth_data <- read.csv("experiment.csv")
 
-install.packages("ggplot2")
+#Getting ggplot package for graphing
 library(ggplot2)
 
-ggplot(aes(t,N), data = ???) +
+#Plotting a graph, labelling axes
+ggplot(aes(t,N), data = growth_data) +
   
   geom_point() +
   
@@ -15,7 +17,9 @@ ggplot(aes(t,N), data = ???) +
   
   theme_bw()
 
-ggplot(aes(t,???), data = growth_data) +
+#Plotting a logged version 
+
+ggplot(aes(t,N), data = growth_data) +
   
   geom_point() +
   
