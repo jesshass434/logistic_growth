@@ -33,5 +33,6 @@ If exponential growth continued without constraints of carrying capacity, the po
 Exponential growth leads to 5.7e+13 times more bacteria!
 
 ![logistic_growth](./Exponential_vs_Logistic_Growth_Plot.png)
+
 *Figure showing exponential (red line) vs logistic (black line) growth*
 
