@@ -8,7 +8,7 @@ growth_data <- read.csv("experiment.csv")
 
 #Case 1. K >> N0, t is small
 
-#Filtering data so ony includes when t<0.1, creating a logged variable
+#Filtering data so only includes when t<1500, creating a logged variable
 data_subset1 <- growth_data %>% filter(t<1500) %>% mutate(N_log = log(N))
 
 #This creates a linear model where the log-transformed response variable is predicted by t (the predictor variable).

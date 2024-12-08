@@ -5,7 +5,7 @@ logistic_plot <- ggplot(aes(t, N), data = growth_data) +
   geom_point() +
   xlab("t") +
   ylab("logN") +
-  scale_y_continuous(trans = 'log10') +
+  scale_y_continuous(trans = 'log') +
   theme_minimal()
 
 # Add the exponential growth model to the plot - adding in the exponential function
@@ -15,5 +15,4 @@ logistic_exponential_plot <- logistic_plot +
 
 #Call plot
 logistic_exponential_plot
-
 
