@@ -1,6 +1,7 @@
 # Homework Answers 
 
-## Background/Methods
+
+## Question 1 - Background/Methods
 
 In this practical, I analysed the `experiment.csv` file, which contains data on the population size (N) of *E. coli* at different times (t).
 
@@ -15,7 +16,7 @@ In this practical, I analysed the `experiment.csv` file, which contains data on 
 
 * The model’s fit to the data was assessed visually (in `plot_data_and_model.R`), where it appeared to be a very good fit.
 
-## Results 
+## Question 1 - Results 
 
 The initial population size of *E. coli* was approximately 987, with an intrinsic growth rate (r) of around 0.01 and a carrying capacity (K) of around 60 billion.
 | Parameter  | Estimated Value |
@@ -26,11 +27,20 @@ The initial population size of *E. coli* was approximately 987, with an intrinsi
 
 *Parameter Estimates Based on 'experiment.csv' Data*
 
+## Question 2 - Effect of Exponential vs Logistic Growth on Bacterial Population Size
+- **Exponential Growth**:
+  If exponential growth continued without constraints of carrying capacity, the population would reach **3.4e+24** bacteria at 4980 minutes (N = 986.50747(1+0.01000806)^4980 = 3.40252411e+24).
 
-Under logistic growth, the population size at 4980 mins would be 60,000,000,000 as carrying capacity is reached.
-If exponential growth continued without constraints of carrying capacity, the population would reach 3.4e+24 (N = 986.50747(1+0.01000806)^4980 = 3.40252411e+24).
+- **Logistic Growth**:
+  Whereas, under logistic growth, the population size at 4980 minutes would be **60,000,000,000** as carrying capacity is reached.
 
-Exponential growth leads to 5.7e+13 times more bacteria!
+-> Exponential growth leads to **5.7e+13** times more bacteria!
+
+
+
+## Question 3
+
+I made a figure to visually compare logistic vs exponential growth of these bacteria - see my code [here](.plot_exponential_vs_logistic.R).
 
 ![logistic_growth](./Exponential_vs_Logistic_Growth_Plot.png)
 
