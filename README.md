@@ -2,7 +2,7 @@
 
 ## Background/Methods
 
-In this practical, I analyzed the `experiment.csv` file, which contains data on the population size (N) of *E. coli* at different times (t).
+In this practical, I analysed the `experiment.csv` file, which contains data on the population size (N) of *E. coli* at different times (t).
 
 * I plotted N against t and then log(N) against t (in `plot_data.R`) to linearize the exponential growth phase.
 * A linear model was fitted to estimate the growth parameters (N0, r, k) using a linear approximation (in `fit_linear_model.R`).
