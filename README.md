@@ -32,7 +32,7 @@ The initial population size of *E. coli* was approximately 987, with an intrinsi
   If exponential growth continued without constraints of carrying capacity, the population would reach **3.4e+24** bacteria at 4980 minutes (N = 986.50747(1+0.01000806)^4980 = 3.40252411e+24).
 
 - **Logistic Growth**:
-  Whereas, under logistic growth, the population size at 4980 minutes would be **60,000,000,000** (6.0e+10) as carrying capacity is reached.
+  Whereas, under logistic growth, the population size at 4980 minutes would only be **60,000,000,000** (6.0e+10) as carrying capacity is reached.
 
 -> Exponential growth leads to **5.7e+13** times more bacteria!
 
