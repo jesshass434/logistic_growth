@@ -46,7 +46,7 @@ This tells us the population is grows by around 1% per minute until the populati
 
 In `plot_exponential_vs_logistic.R`, I make a figure to visually compare logistic vs exponential growth of these bacteria, which you can see below.
 
-![logistic_growth](./Exponential_Vs_Logistic_Comparison_Plot.png)
+![logistic_growth](./my-homework-files/Exponential_Vs_Logistic_Comparison_Plot.png)
 
 *Figure comparing exponential and logistic growth*.
 
